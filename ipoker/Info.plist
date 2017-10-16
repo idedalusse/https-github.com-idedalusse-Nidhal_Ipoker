@@ -30,9 +30,13 @@
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Blanche de la Fontaine</string>
+		<string>couture-bld</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
