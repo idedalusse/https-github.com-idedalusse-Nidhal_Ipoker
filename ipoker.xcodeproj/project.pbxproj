@@ -109,6 +109,7 @@
 		65B7D1591F95448F005BF088 /* Qs.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B7D1231F95448E005BF088 /* Qs.png */; };
 		65B7D15B1F954604005BF088 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B7D15A1F954603005BF088 /* back.png */; };
 		65B7D15D1F954E40005BF088 /* tapis vert .png in Resources */ = {isa = PBXBuildFile; fileRef = 65B7D15C1F954E3F005BF088 /* tapis vert .png */; };
+		65B7D15F1F955326005BF088 /* PokerHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7D15E1F955326005BF088 /* PokerHands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +217,7 @@
 		65B7D1231F95448E005BF088 /* Qs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Qs.png; sourceTree = "<group>"; };
 		65B7D15A1F954603005BF088 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		65B7D15C1F954E3F005BF088 /* tapis vert .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tapis vert .png"; sourceTree = "<group>"; };
+		65B7D15E1F955326005BF088 /* PokerHands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerHands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +250,7 @@
 		65B7D0161F95327E005BF088 /* ipoker */ = {
 			isa = PBXGroup;
 			children = (
+				65B7D15E1F955326005BF088 /* PokerHands.swift */,
 				65B7D02C1F9533DA005BF088 /* images */,
 				65B7D02A1F95338D005BF088 /* Fonts */,
 				65B7D0171F95327E005BF088 /* AppDelegate.swift */,
@@ -573,6 +576,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B7D01A1F95327E005BF088 /* ViewController.swift in Sources */,
+				65B7D15F1F955326005BF088 /* PokerHands.swift in Sources */,
 				65B7D0181F95327E005BF088 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

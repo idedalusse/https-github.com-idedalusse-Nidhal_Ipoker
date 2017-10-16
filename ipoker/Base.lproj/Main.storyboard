@@ -37,12 +37,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko2-bz-kDx">
                                         <rect key="frame" x="3" y="3" width="115" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9jl-L9-qSw"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF6-pL-qUP">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF6-pL-qUP">
                                         <rect key="frame" x="3" y="172" width="115" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -59,12 +62,15 @@
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vm-jj-Cvg">
                                         <rect key="frame" x="3" y="3" width="115" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsv-KJ-9Q8"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FQ-1d-0tn">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FQ-1d-0tn">
                                         <rect key="frame" x="3" y="172" width="115" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -81,12 +87,15 @@
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R5-is-cBy">
                                         <rect key="frame" x="3" y="3" width="115" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9YF-WW-Asb"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3R-gm-4pi">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3R-gm-4pi">
                                         <rect key="frame" x="3" y="172" width="115" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -103,18 +112,21 @@
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Sa-PM-H5K">
                                         <rect key="frame" x="3" y="3" width="115" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWR-ZV-sHk"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-wF-rgA">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-wF-rgA">
                                         <rect key="frame" x="3" y="172" width="115" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ivo-VQ-wQy" userLabel="slot_4">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ivo-VQ-wQy" userLabel="slot_5">
                                 <rect key="frame" x="531" y="107" width="121" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -125,12 +137,15 @@
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQv-61-igd">
                                         <rect key="frame" x="3" y="3" width="115" height="161"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3c4-g0-vlE"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9U-0Q-fkW">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9U-0Q-fkW">
                                         <rect key="frame" x="3" y="172" width="115" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -151,6 +166,9 @@
                                 <state key="normal" title="MISER 25" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="betButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Orm-39-sjZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gm-IY-0NL">
                                 <rect key="frame" x="275" y="310" width="116" height="45"/>
@@ -159,6 +177,9 @@
                                 <state key="normal" title="MISER 100" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="betButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7gp-wc-54P"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jh-0B-rKV">
                                 <rect key="frame" x="409" y="310" width="116" height="45"/>
@@ -167,6 +188,9 @@
                                 <state key="normal" title="MISER TOUT" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="betButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mRz-r3-wAN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAq-nM-A7L">
                                 <rect key="frame" x="533" y="310" width="116" height="45"/>
@@ -175,6 +199,9 @@
                                 <state key="normal" title="DISTRIBUER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KVP-i5-YGa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CRÉDITS : 2000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0m8-II-vLP">
                                 <rect key="frame" x="500" y="11" width="136" height="42"/>
@@ -205,10 +232,31 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="betLabel" destination="WHF-i7-yp2" id="rcX-Uq-1Ix"/>
+                        <outlet property="bg_1" destination="hte-y3-dcZ" id="5M6-GD-0AT"/>
+                        <outlet property="bg_2" destination="A5G-rU-S4D" id="GhS-LM-J5E"/>
+                        <outlet property="bg_3" destination="KPU-28-pfj" id="wlz-Sk-cww"/>
+                        <outlet property="bg_4" destination="pwy-Ke-9Th" id="HDn-q9-MgG"/>
+                        <outlet property="bg_5" destination="ivo-VQ-wQy" id="qKT-Ac-p8e"/>
+                        <outlet property="creditsLabel" destination="0m8-II-vLP" id="2lL-6K-4FM"/>
+                        <outlet property="dealButton" destination="zAq-nM-A7L" id="7bF-je-jeN"/>
+                        <outlet property="keep_1" destination="zF6-pL-qUP" id="d6Q-Fh-Vis"/>
+                        <outlet property="keep_2" destination="5FQ-1d-0tn" id="I4v-qF-vgi"/>
+                        <outlet property="keep_3" destination="Q3R-gm-4pi" id="vSW-jk-ETj"/>
+                        <outlet property="keep_4" destination="Tyc-wF-rgA" id="5z0-2w-tsc"/>
+                        <outlet property="keep_5" destination="f9U-0Q-fkW" id="05n-La-448"/>
+                        <outlet property="slot_1" destination="TWB-d5-Jxw" id="A3Q-PY-6ah"/>
+                        <outlet property="slot_2" destination="Vop-zy-vZG" id="tDV-d1-VbJ"/>
+                        <outlet property="slot_3" destination="KZg-4a-N2u" id="njf-fP-fvP"/>
+                        <outlet property="slot_4" destination="dj7-nC-Wph" id="wtu-AX-WPD"/>
+                        <outlet property="slot_5" destination="hcd-ka-UEz" id="3QS-Nj-330"/>
+                        <outlet property="tempLabel" destination="DE0-UW-gVm" id="9Sy-uM-t1x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121.88905547226388" y="-738.39999999999998"/>
+            <point key="canvasLocation" x="1110" y="-930"/>
         </scene>
     </scenes>
     <resources>
