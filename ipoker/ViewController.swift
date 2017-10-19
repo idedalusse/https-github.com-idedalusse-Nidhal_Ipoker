@@ -51,6 +51,8 @@ class ViewController: UIViewController {
     var chances = 2
     //--- l'instontation de l'objet (creation d'un objet selon la classe) --//
     let pokerHands = PokerHands()
+    //--- classe pour garder le score en memoire --//
+    let saveScore = UserDefaultsManager()
     //---tableau de toople pour analyser les cartes --//
     var handToAnalyse = [(0, ""), (0, ""), (0, ""), (0, ""), (0, "")]
     //---la main au hazard (global)--//
