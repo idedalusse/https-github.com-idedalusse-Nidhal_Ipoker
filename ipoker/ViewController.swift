@@ -119,7 +119,7 @@ class ViewController: UIViewController {
             bgView.layer.backgroundColor = g
         }
     }
-    //---- XXXXXXXXXXXXXXXXXXXXXXXXX----//
+    //---- function pour remplire les tableaux----//
     func fillUpArrays() {
         arrOfCardImages = [card_blur_1, card_blur_2, card_blur_3, card_blur_4,
                            card_blur_5]
@@ -191,11 +191,11 @@ class ViewController: UIViewController {
     }
     //-------- Affichage des cartes au hazard ---------
     @objc func displayRandomCards() {
-        //---XXXXXXXXXXXXX
+        //---retourner les main au hasard--//
         theHand = returnRandomHand()
-        //---XXXXXXXXXXXXXX
+        //---creation des array pour toutes les cartes --//
         let arrOfCards = createCards(theHand: theHand)
-        //---XXXXXXXXXXXX
+        //---afficher les cartes---//
         displayCards(arrOfCards: arrOfCards)
         //--- Methode permissions de selectionner les cartes ---//
         permissionToSelectCards = true
@@ -329,7 +329,7 @@ class ViewController: UIViewController {
             manageSelectedCards(theTag: sender.tag, shouldAdd: true)
         }
     }
-    //------Methone pour selectionner ou des-selectionner les choix fait des cartes  ------//
+    //--Methone pour selectionner ou des-selectionner les choix fait des cartes--//
     func manageSelectedCards(theTag: Int, shouldAdd: Bool) {
         if shouldAdd {
             handToAnalyse[theTag] = theHand[theTag]
@@ -384,10 +384,25 @@ class ViewController: UIViewController {
             arrOfBackgrounds[index].layer.backgroundColor = nil
             arrOfKeepLabels[index].isHidden = true
         }
-        //---
+        //--pour rappeler a chaque fois que le hand est fini droit a 2 chance-//
         chances = 2
         //---
     }
     //----------------------//----------------------
+    
+    @IBAction func recommencer(_ sender: UIButton) {
+         //--- pour griser le bouttons Distribuer ----//
+        dealButton.alpha = 0.5
+         //--- appeler la fonction pour retourner les cartes--//
+        resetBackOfCards()
+           //--- pour remettre les conteur a zero--//
+        bet = 0
+        credits = 2000
+        betLabel.text = "MISE : \(bet)"
+        creditsLabel.text = "CRÉDITS : \(credits)"
+        tempLabel.text = "BONNE CHANCES"
+        chances = 2
+        
+    }
 }
 //----------------------//----------------------

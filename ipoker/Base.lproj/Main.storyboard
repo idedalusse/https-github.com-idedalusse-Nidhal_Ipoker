@@ -287,6 +287,9 @@
                                 <state key="normal" title="RECOMMENCER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="recommencer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5a2-Kd-SaL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jh-0B-rKV">
                                 <rect key="frame" x="401" y="315.5" width="121.5" height="47"/>
@@ -359,6 +362,7 @@
                             <constraint firstItem="8gm-IY-0NL" firstAttribute="leading" secondItem="KPU-28-pfj" secondAttribute="leading" id="wQS-L5-VC6"/>
                             <constraint firstItem="zAq-nM-A7L" firstAttribute="width" secondItem="8gm-IY-0NL" secondAttribute="width" id="zo4-cz-t6U"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="yQs-fI-1cv"/>
                     </view>
                     <connections>
                         <outlet property="betLabel" destination="WHF-i7-yp2" id="rcX-Uq-1Ix"/>
@@ -384,7 +388,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2248.4257871064469" y="-658.39999999999998"/>
+            <point key="canvasLocation" x="2152" y="-486"/>
         </scene>
     </scenes>
     <resources>
