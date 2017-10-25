@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65207A7F1FA151DE00494702 /* launchScreen 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65207A7E1FA151DD00494702 /* launchScreen 2.png */; };
 		652D4B0A1F99568800224760 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652D4B091F99568700224760 /* UserDefaultsManager.swift */; };
 		656E73F61F9FD0F000810B88 /* Painted Paradise - Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 656E73F51F9FD0F000810B88 /* Painted Paradise - Demo.ttf */; };
 		656E74151F9FD1AD00810B88 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 656E73F71F9FD1AA00810B88 /* Icon-180.png */; };
@@ -110,6 +111,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65207A7E1FA151DD00494702 /* launchScreen 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchScreen 2.png"; sourceTree = "<group>"; };
 		652D4B091F99568700224760 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		656E73F51F9FD0F000810B88 /* Painted Paradise - Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Painted Paradise - Demo.ttf"; sourceTree = "<group>"; };
 		656E73F71F9FD1AA00810B88 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 		65B7D0341F953D58005BF088 /* misc */ = {
 			isa = PBXGroup;
 			children = (
+				65207A7E1FA151DD00494702 /* launchScreen 2.png */,
 				656E74351F9FF05800810B88 /* launchScreen.png */,
 				65B7D0E71F953EF8005BF088 /* bg.png */,
 				65B7D0E61F953EF7005BF088 /* buttons.png */,
@@ -467,6 +470,7 @@
 				65B7D0EB1F953EF8005BF088 /* bg.png in Resources */,
 				65B7D1341F95448F005BF088 /* 8c.png in Resources */,
 				6597CB771F967E4600A59A34 /* 1h.png in Resources */,
+				65207A7F1FA151DE00494702 /* launchScreen 2.png in Resources */,
 				65B7D1361F95448F005BF088 /* 7h.png in Resources */,
 				65B7D0EA1F953EF8005BF088 /* buttons.png in Resources */,
 				65B7D0E31F953EEA005BF088 /* blur_5.png in Resources */,

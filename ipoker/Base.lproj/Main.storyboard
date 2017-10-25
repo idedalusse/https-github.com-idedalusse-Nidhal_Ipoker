@@ -30,16 +30,16 @@
                                 <viewLayoutGuide key="safeArea" id="8NW-oK-ALn"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hte-y3-dcZ" userLabel="slot_1">
-                                <rect key="frame" x="16.5" y="106" width="121" height="195"/>
+                                <rect key="frame" x="16.5" y="106" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="TWB-d5-Jxw">
-                                        <rect key="frame" x="3" y="3" width="114" height="158"/>
+                                        <rect key="frame" x="3" y="3" width="114" height="157.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="TWB-d5-Jxw" secondAttribute="height" multiplier="23:32" id="uaP-VX-nVg"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko2-bz-kDx">
-                                        <rect key="frame" x="3" y="3" width="114" height="158"/>
+                                        <rect key="frame" x="3" y="3" width="114" height="157.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ko2-bz-kDx" secondAttribute="height" multiplier="23:32" id="RfW-JJ-8kx"/>
                                         </constraints>
@@ -48,7 +48,7 @@
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zF6-pL-qUP">
-                                        <rect key="frame" x="3" y="164" width="122" height="22"/>
+                                        <rect key="frame" x="3" y="163.5" width="122" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="zF6-pL-qUP" secondAttribute="height" multiplier="61:11" id="Hhc-WU-tMK"/>
                                         </constraints>
@@ -72,10 +72,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A5G-rU-S4D" userLabel="slot_2">
-                                <rect key="frame" x="144.5" y="106" width="121" height="195"/>
+                                <rect key="frame" x="144.5" y="106" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vop-zy-vZG">
-                                        <rect key="frame" x="3" y="3" width="114.5" height="160"/>
+                                        <rect key="frame" x="3" y="3" width="114.5" height="161"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Vop-zy-vZG" secondAttribute="height" multiplier="5:7" id="b3a-9F-jO1"/>
                                         </constraints>
@@ -90,7 +90,7 @@
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5FQ-1d-0tn">
-                                        <rect key="frame" x="3" y="165" width="122" height="22"/>
+                                        <rect key="frame" x="3" y="166" width="122" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="5FQ-1d-0tn" secondAttribute="height" multiplier="61:11" id="8dS-SI-Ewf"/>
                                         </constraints>
@@ -113,19 +113,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KPU-28-pfj" userLabel="slot_3">
-                                <rect key="frame" x="273" y="106" width="121" height="195"/>
+                                <rect key="frame" x="273" y="106" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="KZg-4a-N2u">
-                                        <rect key="frame" x="3" y="3" width="115" height="162"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="163"/>
                                     </imageView>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3R-gm-4pi">
-                                        <rect key="frame" x="3" y="168" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="169" width="115" height="20"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7R5-is-cBy">
-                                        <rect key="frame" x="3" y="3" width="115" height="162"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="163"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9YF-WW-Asb"/>
                                         </connections>
@@ -149,16 +149,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwy-Ke-9Th" userLabel="slot_4">
-                                <rect key="frame" x="401" y="106" width="121.5" height="195"/>
+                                <rect key="frame" x="401" y="106" width="121.5" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="dj7-nC-Wph">
-                                        <rect key="frame" x="3" y="3" width="114.5" height="160"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="161"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="dj7-nC-Wph" secondAttribute="height" multiplier="5:7" id="QVm-Pa-f6d"/>
                                         </constraints>
                                     </imageView>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyc-wF-rgA">
-                                        <rect key="frame" x="3" y="166" width="115.5" height="21"/>
+                                        <rect key="frame" x="3" y="167" width="115.5" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Tyc-wF-rgA" secondAttribute="height" multiplier="115:21" id="2cj-xY-6rc"/>
                                         </constraints>
@@ -167,7 +167,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Sa-PM-H5K">
-                                        <rect key="frame" x="3" y="3" width="115.5" height="160"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="161"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWR-ZV-sHk"/>
                                         </connections>
@@ -188,7 +188,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivo-VQ-wQy" userLabel="slot_5">
-                                <rect key="frame" x="529.5" y="106" width="121" height="195"/>
+                                <rect key="frame" x="529.5" y="106" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="hcd-ka-UEz">
                                         <rect key="frame" x="3" y="3" width="114" height="159.5"/>
@@ -206,7 +206,7 @@
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9U-0Q-fkW">
-                                        <rect key="frame" x="3" y="165.5" width="114" height="21.5"/>
+                                        <rect key="frame" x="3" y="165.5" width="114" height="22.5"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -407,7 +407,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2390" y="-1482"/>
+            <point key="canvasLocation" x="2168" y="-1666"/>
         </scene>
     </scenes>
     <resources>

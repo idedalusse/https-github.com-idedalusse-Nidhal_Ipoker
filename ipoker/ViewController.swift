@@ -295,7 +295,7 @@ class ViewController: UIViewController {
         } else if pokerHands.onePair(hand: hand) {
             calculateHand(times: 1, handToDisplay: "PAIRE")
         } else {
-            calculateHand(times: 0, handToDisplay: "RIEN...")
+            calculateHand(times: 0, handToDisplay: "BONNE CHANCE")
         }
     }
     //------- Methode pour afficher les gains -------//
